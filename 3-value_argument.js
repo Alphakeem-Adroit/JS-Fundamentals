@@ -8,7 +8,7 @@
 
 // arg();
 
-const args = process.argv.length - 2;
+const args = process.argv - 2;
 
 if (args <1) {
     console.log("No argument");
